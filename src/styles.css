@@ -1,8 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
+* {
+  cursor: crosshair;
+}
+
 body {
   background-color: rgb(10, 7, 15);
   text-align: center;
 
   font-family: monospace;
+}
+
+::selection {
+  background-color: rgb(33, 24, 49);
+  color: aquamarine;
 }

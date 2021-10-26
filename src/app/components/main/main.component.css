@@ -49,6 +49,25 @@ img {
   filter: drop-shadow(0 0 8px #7df7c2);
 }
 
-p {
+.email {
   color: #5F46AD;
+  font-size: 1.1rem;
+  letter-spacing: .2rem;
+}
+
+/* ------Simbolo------ */
+
+#simbolo {
+  position: fixed;
+  bottom: 0;
+  right: 0.5rem;
+}
+
+.simbolo {
+  font-size: 200%;
+  background: linear-gradient(to right, #2ACE83, #7319BD);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
