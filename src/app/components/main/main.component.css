@@ -1,0 +1,54 @@
+/* ------Principal------ */
+
+#principal {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.titulo-degrade {
+  font-size: 800%;
+
+  background: linear-gradient(200deg, #7c00c4, #19f775);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.piscando {
+  font-size: 800%;
+
+  animation-duration: 1.2s;
+  animation-name: piscar;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(2, start);
+}
+
+@keyframes piscar {
+  from {
+    color: #643CB0;
+  }
+  to {
+    color: transparent;
+  }
+}
+
+/* ------Icones------ */
+
+img {
+  margin: 1.5rem;
+}
+
+/* ------Footer------ */
+
+#footer {
+  margin-top: 5rem;
+}
+
+.img-github {
+  filter: drop-shadow(0 0 8px #7df7c2);
+}
+
+p {
+  color: #5F46AD;
+}
