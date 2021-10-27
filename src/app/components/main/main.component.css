@@ -2,7 +2,7 @@
 
 #principal {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .titulo-degrade {
@@ -39,20 +39,42 @@ img {
   margin: 1.5rem;
 }
 
+.img-icones {
+  transition: all 0.5s ease;
+}
+.img-icones:hover {
+  transform: scale(1.5);
+  filter: drop-shadow(0 0 0.2rem #7df7c288);
+}
+.img-icones:active {
+  transform: scale(1.3);
+  filter: drop-shadow(0 0 0.1rem #7df7c21e);
+}
+
 /* ------Footer------ */
 
 #footer {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .img-github {
-  filter: drop-shadow(0 0 8px #7df7c2);
+  filter: drop-shadow(0 0 0.1rem #ffffff);
+  transition: all 0.3s ease;
+}
+.img-github:hover {
+  filter: drop-shadow(0 0 0.1rem #5F46AD);
+  transform: scale(1.1);
 }
 
 .email {
   color: #5F46AD;
   font-size: 1.1rem;
   letter-spacing: .2rem;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+.email:hover {
+  color: aquamarine;
 }
 
 /* ------Simbolo------ */
@@ -61,6 +83,7 @@ img {
   position: fixed;
   bottom: 0;
   right: 0.5rem;
+  transition: all 0.5s ease;
 }
 
 .simbolo {
@@ -70,4 +93,8 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+}
+
+#simbolo:hover {
+  transform: scale(0.8);
 }
