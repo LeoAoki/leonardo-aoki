@@ -81,7 +81,7 @@ img {
 
 /* ------Simbolo------ */
 
-#simbolo {
+/* #simbolo {
   position: fixed;
   bottom: 0.5%;
   right: 1.5%;
@@ -101,4 +101,4 @@ img {
 
 #simbolo:hover {
   transform: scale(0.8);
-}
+} */
