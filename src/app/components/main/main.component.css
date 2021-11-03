@@ -1,12 +1,12 @@
 /* ------Principal------ */
 
 #principal {
-  margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin-top: 1%;
+  margin-bottom: 8%;
 }
 
 .titulo-degrade {
-  font-size: 800%;
+  font-size: clamp(3.5rem, 10vw, 8rem);
 
   background: linear-gradient(200deg, #7c00c4, #19f775);
   background-clip: text;
@@ -16,7 +16,7 @@
 }
 
 .piscando {
-  font-size: 800%;
+  font-size: clamp(4rem, 10vw, 8rem);
 
   animation-duration: 1.2s;
   animation-name: piscar;
@@ -40,6 +40,7 @@ img {
 }
 
 .img-icones {
+  height: clamp(2rem, 3vw, 2.5rem);
   transition: all 0.5s ease;
 }
 .img-icones:hover {
@@ -54,10 +55,11 @@ img {
 /* ------Footer------ */
 
 #footer {
-  margin-top: 6rem;
+  margin-top: 8%;
 }
 
 .img-github {
+  height: 4rem;
   filter: drop-shadow(0 0 0.1rem #ffffff);
   transition: all 0.3s ease;
 }
@@ -67,8 +69,8 @@ img {
 }
 
 .email {
+  font-size: clamp(1rem, 5vw, 1.2rem);
   color: #5F46AD;
-  font-size: 1.1rem;
   letter-spacing: .2rem;
   padding: 0;
   transition: all 0.5s ease;
@@ -81,13 +83,15 @@ img {
 
 #simbolo {
   position: fixed;
-  bottom: 0;
-  right: 0.5rem;
+  bottom: 0.5%;
+  right: 1.5%;
   transition: all 0.5s ease;
 }
 
 .simbolo {
-  font-size: 200%;
+  font-size: clamp(120%, 10vw, 200%);
+  right: 0;
+
   background: linear-gradient(to right, #2ACE83, #7319BD);
   background-clip: text;
   -webkit-background-clip: text;
