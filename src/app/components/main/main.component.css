@@ -2,7 +2,7 @@
 
 #principal {
   margin-top: 0;
-  margin-bottom: 8%;
+  margin-bottom: 6%;
 }
 
 .titulo-degrade {
@@ -36,7 +36,10 @@
 /* ------Icones------ */
 
 img {
-  margin: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .img-icones {
@@ -55,7 +58,7 @@ img {
 /* ------Footer------ */
 
 #footer {
-  margin-top: 8%;
+  margin-top: 6%;
 }
 
 .img-github {
